@@ -11,7 +11,18 @@ Descrição:
     2) 01_DefTarget_20XX: definição do target
        - Sum_Target_2: Cálculo da mediana de cada competência. Caso o candidato for classificado acima da mediana em pelo menos três da cinco competências avaliadas, este é classificado como 'Alto Desempenho'. Caso contrário, 'Baixo Desempenho'.
        - Sum_Target_3: Cálculo da mediana de cada competência. Caso o candidato for classificado acima da mediana em pelo menos quatro da cinco competências avaliadas, este é classificado como 'Alto Desempenho'. Caso o candidato for classificado acima da mediana em duas ou três competências, este é classificado como 'Médio Desempenho'. Caso contrário, 'Baixo Desempenho'.
-    3) 02_CategVariaveis_20XX: análise bivariada de cada variável presente no questionário sócioeconômico respondido pelos candidatos e o target, obtenção de novas variáveis a partir da combinação entre elas, recategorização das variáveis com baixa representatividade, outras validações.
+    3) 02_CategVariaveis_20XX: análise bivariada de cada variável presente no questionário sócioeconômico respondido pelos candidatos e o target, obtenção de novas variáveis a partir da combinação entre elas, recategorização das variáveis com baixa representatividade, outras validações;
+    4) 03_Analise_20XX:
+       - Pré-Processamento: amostragem, seleção de variáveis relevantes (análise univariada), codificação de variáveis.
+       - Fine tuning dos principais hiperparâmetros de cada algoritmo de classificação.
+       - Processamento: ajuste dos algoritmos de classificação considerando os seguintes classificadores:
+         - Logistic Regression;
+         - Decision Tree Classifier;
+         - Random Forest Classifier;
+         - Extra Trees Classifier;
+         - Gradient Boosting;
+         - XGB Classifier;
+         - LightGBM Classifier.
 
 
 
