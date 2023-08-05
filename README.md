@@ -20,7 +20,7 @@ Descrição:
     3) 02_CategVariaveis_20XX: análise bivariada de cada variável presente no questionário sócioeconômico respondido pelos candidatos e o target, obtenção de novas variáveis a partir da combinação entre elas, recategorização das variáveis com baixa representatividade, outras validações;
        
     4) 03_Analise_20XX:
-       - Pré-Processamento: amostragem, seleção de variáveis relevantes (análise univariada), codificação de variáveis.
+       - Pré-Processamento: amostragem, seleção de variáveis relevantes, codificação de variáveis.
        - Fine tuning dos principais hiperparâmetros de cada algoritmo de classificação.
        - Processamento: ajuste dos algoritmos de classificação considerando os seguintes classificadores:
          - Logistic Regression;
