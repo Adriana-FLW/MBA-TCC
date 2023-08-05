@@ -11,7 +11,7 @@ Descrição:
     2) 01_DefTarget_20XX: definição do target
        - Sum_Target_2: Cálculo da mediana de cada competência. Caso o candidato for classificado acima da mediana em pelo menos três da cinco competências avaliadas, este é classificado como 'Alto Desempenho'. Caso contrário, 'Baixo Desempenho'.
        - Sum_Target_3: Cálculo da mediana de cada competência. Caso o candidato for classificado acima da mediana em pelo menos quatro da cinco competências avaliadas, este é classificado como 'Alto Desempenho'. Caso o candidato for classificado acima da mediana em duas ou três competências, este é classificado como 'Médio Desempenho'. Caso contrário, 'Baixo Desempenho'.
-    3) 02_CategVariaveis_20XX: obtenção de novas variáveis a partir da combinação das variáveis presentes no questionário sócioeconômico respondido pelos candidatos, recategorização das variáveis com baixa representatividade, análise bivariada de cada variável e o target, outras validações.
+    3) 02_CategVariaveis_20XX: análise bivariada de cada variável presente no questionário sócioeconômico respondido pelos candidatos e o target, obtenção de novas variáveis a partir da combinação entre elas, recategorização das variáveis com baixa representatividade, outras validações.
 
 
 
